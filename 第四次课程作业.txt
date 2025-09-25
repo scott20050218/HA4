@@ -1,0 +1,43 @@
+1，新建一个目录todoapp-java/backend
+2，拷贝spec-req.md 到backend
+3，打开cursor 打开这个todoapp-java项目
+4，在mysql上新建一个数据库名称：todoapp
+5，修改：spec-req.md  数据库设计
+
+## 数据库设计
+
+- 地址：localhost:3306
+- 用户名：root
+- 密码：空
+- 数据库名：todoapp
+
+6，提示词：@backend 请按@spec-req.md 定义的技术要求及api定义，开发后端功能，提供api接口，考虑前端跨域问题，数据库todoapp已经创建，你需要进行建表并进行单元测试。
+export JAVA_HOME=/Users/lihengrui/tools/jdk-21.0.2.jdk/Contents/Home
+export PATH=$JAVA_HOME/bin:$PATH
+mvn spring-boot:run
+mvn clean spring-boot:run
+
+
+7，前端复用第三次课的前端。
+
+
+你是一位资深的Python测试工程师。请为以下 \calculate_discount\函数编写单元测试:
+1.使用 \pytest\'框架。
+2.全面覆盖正常场景、所有边界条件和 \ValueError\'异常场景。
+3.为每个测试用例起一个清晰的、能反映其意图的名字。
+
+你是一位资深的js测试工程师。请为以下js代码 export function truncate(str string, length: number: sif (length <= 0) return "”.
+if (str .length <= length) return str
+return str slice(0, length) + " ...T
+}用 Jest 进行单元测试，编写测试用例，包括长度够、长度不够、长度为负的情况，包括边界，为每个测试用例起一个清晰的、能反映其意图的名字。
+
+生成一个order的文件。包括classNotificationService :def send_email(self, user_email, m sage):
+print(fEmail sent to (user_email}")
+retum True class OrderService :def init (self, notification_service):self .notification_service = notification_serv
+def place_order(self, user_email, order_details)#..处理订单逻辑 ..print("Order placed successfully .")# 下单成功后发送邮件
+self.notification service.send email(user_email, "Your order has been placed successfully.")
+
+
+请为 order.py 的 place_order 方法编写集成测试。为每个测试用例起一个清晰的、能反映其意图的名字。
+1.使用 Python的unittest.mock`来模拟 NotificationService`。
+2.验证当 `place_order`被调用时,`notification_service ,send_email 方法 @order.py

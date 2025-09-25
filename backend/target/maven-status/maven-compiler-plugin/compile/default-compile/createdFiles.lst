@@ -1,0 +1,14 @@
+com/example/todoapp/service/impl/TaskServiceImpl.class
+com/example/todoapp/model/Task.class
+com/example/todoapp/repository/UserRepository.class
+com/example/todoapp/TodoAppApplication.class
+com/example/todoapp/config/CorsConfig$1.class
+com/example/todoapp/controller/HealthController.class
+com/example/todoapp/repository/TaskRepository.class
+com/example/todoapp/service/TaskService.class
+com/example/todoapp/model/User.class
+com/example/todoapp/controller/TaskController.class
+com/example/todoapp/service/UserService.class
+com/example/todoapp/config/CorsConfig.class
+com/example/todoapp/service/impl/UserServiceImpl.class
+com/example/todoapp/controller/AuthController.class

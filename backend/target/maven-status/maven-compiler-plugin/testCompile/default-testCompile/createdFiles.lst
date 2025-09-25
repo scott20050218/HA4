@@ -1,0 +1,4 @@
+com/example/todoapp/service/UserServiceTest.class
+com/example/todoapp/service/TaskServiceTest.class
+com/example/todoapp/controller/TaskControllerTest.class
+com/example/todoapp/controller/AuthControllerTest.class
